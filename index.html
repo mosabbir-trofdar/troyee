@@ -1,0 +1,183 @@
+<html>
+<head>
+	<title>Troyee Foundation</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css"> 
+</head>
+
+<body>
+	<img src="images/foot.png" id="foot">
+ <div id="head">
+  	<img src="images/logo.png" id="logo">		
+  	<p id="headt1">Troyee Foundation</p>
+   <p id="headt2">#TripleBond</p>
+   <div id="donate">
+	<p id="donat">Donate</p>		
+ </div>
+ </div>		
+ <div id="slider">
+  <img src="images/slider.png" id="sli">	
+ </div>
+ <div id="slided">
+ 	<p id="slp1">Troyee<br>Foundation</p>
+ 	<p id="slp2">
+ 	 <a href="" id="sla">Home</a>
+  	<a href="" id="sla">About</a>
+  	<a href="" id="sla">Donate</a>
+  	<a href="" id="sla">Members</a>
+  	<a href="" id="sla">Contact</a>
+  </p>
+  <div id="sld">
+  	<p id="slp3">
+  	 <a href="">on going Events</a>
+  	</p>			
+  </div>
+  <img src="images/qr.png" id="slqr">
+ </div>
+ <div id="donatbox">
+  <img src="images/bkash.jpg" id="ditem">	
+  <img src="images/bkash.jpg" id="ditem1">
+  <img src="images/bkash.jpg" id="ditem1">
+ </div>
+ 
+<p id="tag">#TripleBond</p> 
+<p id="bta">About Troyee</p>
+<p id="discrip">Troyee Foundation is a social, non-political and non-profit organization founded by alumni of SSC Batch 2018, 2019 and 2020 of Kaunia Mofazzal Hossain Government Model High School. The aim and objective of this organization is to conduct various social activities by strengthening the mutual relations of the alumni of the three batches.</p>
+
+<p id="bt">Activities</p> 
+ <div id="menu1">
+  <div id="con1">
+  	<a href="alp.html">
+ 	  	<img src="images/alp.png" id="c1">	
+ 	  </a>
+  </div>
+  <div id="con1">
+ 		<img src="images/doc.png" id="c2">		
+  </div>
+ </div>
+ <div id="menu2">
+  <div id="con2a">
+ 		<img src="images/one.png" id="c1">		
+  </div>
+ </div>
+ <div id="bl1">
+  <div id="con2b">
+ 		<img src="images/pic.png" id="c2">		
+  </div>
+  <div id="con2b">
+ 		<img src="images/vid.png" id="c2">		
+  </div>  
+ </div>
+ <div id="menu3">
+  <div id="con3">
+ 		<img src="images/mem.png" id="c3">		
+  </div>
+  <div id="con3">
+  	<a href="https://docs.google.com/forms/d/1_VkinJIkKsyLNxxh8l54TJhbJItymg3QPzDvMgG_6Cc/viewform?edit_requested=true">
+ 	  	<img src="images/reg.png" id="c1">		
+ 	  </a>
+  </div>
+ </div>
+ <div id="menu4">
+  <div id="con4">
+ 		<img src="images/pro.png" id="c4">		
+  </div>
+ </div>
+
+ 
+ <div id="footer">
+ 	<div id="f1">
+ 	<p id="connectp">connect with us</p>		
+ 	<div id="connect">
+ 		<div id="box1">
+ 	  <img src="images/facebook.png" id="b1">			
+ 		</div>
+ 		<div id="box2">
+ 		 <img src="images/whats.png" id="b1">			
+ 		</div>
+ 		<div id="box3">
+ 			<img src="images/insta.png" id="b1">			
+ 		</div>			
+ 	</div>
+ 	</div>
+ 	<div id="f2">
+ 	<p id="contactp">contact with us</p>		
+ 	<div id="contact">
+ 		<div id="box4">
+ 			<a href="tel:01774726941">
+ 			 <img src="images/call.png" id="b1">		
+ 			</a>	
+ 		</div>
+ 		<div id="box5">
+ 			<a href="mailto:troyeefoundation@gmail.com">
+ 			 <img src="images/mail.png" id="b1">		
+ 			</a>	
+ 		</div>
+ 	</div>
+ 	</div>
+ 	<div id="f3">
+ 	<p id="donationp">donate with</p>		
+ 	<div id="donation">
+ 		<div id="box6">
+ 		<a href="bkash/b.php">
+ 	   <img src="images/bkash.png" id="b1">	
+ 	  </a>	
+ 		</div>
+ 		<div id="box7">
+ 			<img src="images/nagad.png" id="b1">			
+ 		</div>
+ 		<div id="box8">
+ 			<img src="images/roket.png" id="b1">			
+ 		</div>
+ 	</div>
+ 	</div>
+ 	<img src="images/qr.png" id="qr"><p id="qrp">scan to<br>generate the link<br>of the website</p>				
+ 	<img src="images/ad.png" id="ad">
+ 	<p id="copy">© troyee foundation 2021</p>
+ </div>
+ 
+ 
+ 
+ 
+<script>
+ var lastScrollTop=0;
+head = document.getElementById("head"); 
+window.addEventListener("scroll", function (){
+				var scrollTop= window.pageYOffset || document . documentElement.scrollTop;
+				if(scrollTop>lastScrollTop){
+								head.style.top="-250px";
+								}
+					else{
+									head.style.top="0px";
+									}	
+							lastScrollTop=scrollTop;		
+				})
+</script>  
+<script>
+ var sli = document.getElementById("sli"); 
+var slided = document.getElementById("slided"); 
+slided.style.top="-2000px";
+sli.onclick=function(){
+				if(slided.style.top=="-2000px"){
+							slided.style.top="0px";	
+								}
+				else	{			
+							slided.style.top="-2000px";	
+								}
+				}								
+</script>
+<script>
+ var donat = document.getElementById("donat"); 
+var donatbox = document.getElementById("donatbox"); 
+donatbox.style.top="-2000px";
+donat.onclick=function(){
+				if(donatbox.style.top=="-2000px"){
+							donatbox.style.top="100px";	
+								}
+				else	{			
+							donatbox.style.top="-2000px";	
+								}
+				}								
+</script>
+ 
+</body>
+</html>
